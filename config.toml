@@ -16,7 +16,7 @@ template = '{{ .FormattedMs }}'
 [[blocks.segments]]
 type = 'time'
 style = 'plain'
-foreground = 'white'
+background = 'transparent'
 
 [blocks.segments.properties]
 time_format = "15:04:05"
@@ -34,7 +34,7 @@ time_format = "15:04:05"
   [[blocks.segments]]
     type = 'path'
     style = 'plain'
-    foreground = 'p:green'
+    foreground = 'p:yellow'
     template = '{{ .Path }} '
 
     [blocks.segments.properties]
@@ -58,7 +58,7 @@ time_format = "15:04:05"
   [[blocks.segments]]
     type = 'status'
     style = 'plain'
-    foreground = 'p:green'
+    background = 'transparent'
     foreground_templates = ['{{ if gt .Code 0 }}#42a9ff{{ end }}']
     template = '> '
 
