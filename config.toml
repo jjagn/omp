@@ -57,9 +57,9 @@ background = 'transparent'
 # foreground_templates = ['{{ if gt .Code 0 }}red{{ end }}']
 template = '> '
 
-[transient_prompt]
-background = 'transparent'
-template = '❯ '
+# [transient_prompt]
+# background = 'transparent'
+# template = '❯ '
 
 # [blocks.segments.properties]
 # always_enabled = true
